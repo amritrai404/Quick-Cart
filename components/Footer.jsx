@@ -54,7 +54,7 @@ const Footer = () => {
 
       {/* Footer Bottom */}
       <p className="py-4 text-center text-xs md:text-sm">
-        Copyright 2025 © QuickCart. All Right Reserved.
+        Copyright 2025 © Amrit Rai QuickCart. All Right Reserved.
       </p>
     </footer>
   );
