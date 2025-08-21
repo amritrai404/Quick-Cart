@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@clerk/nextjs": "^6.31.1",
+    "@radix-ui/react-slot": "^1.2.3",
     "axios": "^1.11.0",
     "class-variance-authority": "^0.7.1",
     "cloudinary": "^2.7.0",
     "clsx": "^2.1.1",
+    "framer-motion": "^12.23.12",
     "inngest": "^3.40.1",
     "lucide-react": "^0.540.0",
     "mongoose": "^8.17.1",
