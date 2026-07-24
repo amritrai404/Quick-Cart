@@ -1,0 +1,14 @@
+# While in Quick-Cart folder
+echo '[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NETLIFY_NEXT_PLUGIN_SKIP = "true"
+  NEXT_PUBLIC_IGNORE_BUILD_ERROR = "true"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200' > netlify.toml
