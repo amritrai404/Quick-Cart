@@ -1,5 +1,5 @@
-# While in Quick-Cart folder
-echo '[build]
+cat > netlify.toml << 'EOF'
+[build]
   command = "npm run build"
   publish = ".next"
 
@@ -11,4 +11,5 @@ echo '[build]
 [[redirects]]
   from = "/*"
   to = "/index.html"
-  status = 200' > netlify.toml
+  status = 200
+EOF
